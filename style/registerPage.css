@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    background: rgb(47, 48, 69);
+}
+
+#content {
+    width: 85%;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+
+#form {
+    width: 100%;
+    margin: 10px auto;
+}
+
+.input {
+    width: 90%;
+    height: 85px;
+    font-size: 40px;
+    margin: 10px auto;
+    padding: 0 30px;
+    border-radius: 10px;
+}
+
+li {
+    position: relative;
+}
+
+#verification {
+    width: 50%;
+    height: 85px;
+    font-size: 40px;
+    padding: 0 40px;
+    margin-top: 10px;
+    float: left;
+    border-radius: 10px;
+}
+
+#verificationImg {
+    height: 85px;
+}
+
+#verificationSpan {
+    height: 85px;
+    float: right;
+    margin-top: 10px;
+}
+
+#submit {
+    clear: both;
+    display: block;
+    position: relative;
+    height: 85px;
+    width: 100%;
+    font-size: 36px;
+    color: #fff;
+    top: 80px;
+    background-color: #146fdf;
+    border-radius: 10px;
+}
+
+.inputIco {
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 550px;
+}
+
+#inputIcon {
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 325px;
+}
+
+.delete {
+    width: 50px;
+}
+
+#error {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    background-color: rgba(100, 100, 100, 0.7);
+}
+
+#errorDiv {
+    width: 80%;
+    height: auto;
+    position: relative;
+    top: 50%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+#upDiv {
+    font-size: 28px;
+    text-align: center;
+    padding: 26px 50px;
+    line-height: 56px;
+}
+
+#downDiv {
+    font-size: 28px;
+    color: #00f;
+    text-align: center;
+    padding: 26px 0;
+    border-top: 1px solid #000000;
+}
